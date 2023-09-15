@@ -1,8 +1,8 @@
 # matematyka-klasa-4
 
 
-[https://unamatasanatarai.github.io/matematyka-klasa-4/mnozenie.html](mnozenie)
+[mnożenie](https://unamatasanatarai.github.io/matematyka-klasa-4/mnozenie.html)
 
-[https://unamatasanatarai.github.io/matematyka-klasa-4/numerki.html](numerki po angielsku)
+[numerki po angielsku](https://unamatasanatarai.github.io/matematyka-klasa-4/numerki.html)
 
 
