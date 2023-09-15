@@ -1,0 +1,48 @@
+<style>
+body,html{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+#e{
+  border:noe;
+  font-size:144px;
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+}
+#w{
+  border:0;
+  color:#fefefe;
+  width:100%; 
+}
+  #w:hover{
+    color:#333
+  }
+#r{
+  padding:50px
+}
+</style>
+<input id=e>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input id=w>
+<br>
+<button id=r>losuj</button>
+<input id=m value=10>
+<script>
+  r = m => Math.floor(Math.random() * m);
+
+  document.getElementById("r").addEventListener("click", () => {
+    max=document.getElementById("m").value
+    a=r(max)
+    b=r(max)
+    document.getElementById("e").value=`${a}*${b}`
+    document.getElementById("w").value=a*b
+  })
+</script>
